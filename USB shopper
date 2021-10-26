@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int Money = 50;
+	int Price = 6;
+
+	cout << "She can buy " << Money / Price << " USB sticks." << endl;
+	cout << "She has " << Money % Price << " pounds left. " << endl;
+
+
+	return 0;
+}
